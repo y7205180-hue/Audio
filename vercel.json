@@ -1,0 +1,8 @@
+{
+  "builds": [
+    { "src": "voice_generator_bot.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/.*", "dest": "voice_generator_bot.py" }
+  ]
+}
